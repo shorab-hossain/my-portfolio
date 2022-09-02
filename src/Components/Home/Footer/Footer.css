@@ -1,0 +1,34 @@
+.logoImage {
+  width: 50px;
+}
+.iconImage {
+  width: 50px;
+  border: 3px solid darkorange;
+  border-radius: 50px;
+  padding: 2px;
+  cursor: pointer;
+}
+.iconImage:hover {
+  color: rgb(208, 42, 42);
+}
+.copy-right p {
+  line-height: 10px;
+  color: black;
+}
+.design {
+  font-weight: 900;
+}
+/* svg image design */
+button.scroll-to-top {
+  border-radius: 20px;
+  color: red;
+}
+.whatsapp {
+  width: 50px;
+  border: 3px solid darkorange;
+  border-radius: 50px;
+  padding: 2px;
+  cursor: pointer;
+  font-size: 42px;
+  margin-left: 12px;
+}

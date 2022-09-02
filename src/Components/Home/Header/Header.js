@@ -1,0 +1,31 @@
+import AOS from 'aos';
+import React from 'react';
+import myImage from '../../../image/shorab.png';
+import './Header.css';
+AOS.init();
+
+
+const Header = () => {
+    return (
+        <div className=' header'>
+        <div className="container">
+           <div className="d-flex justify-content-between align-items-center main-header">
+           <div className='text-light col-md-6 col-sm-12 content'  data-aos="flip-left"
+                 data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                <p style={{fontSize:'25px'}}>WELCOME TO MY WORLD</p>
+                <h1 className="fw-bold"  style={{color:'#FF014F',fontSize:"40px"}}>Hi -</h1>
+                <h1 style={{color:'#FF014F',fontWeight:'900',fontSize:'40px',lineHeight:'60px'}}>I’m Shorab Hossain</h1>
+                <h1 style={{color:'#FF014F',fontWeight:'900',fontSize:'35px'}}>I am a frontend Developer.</h1>
+            </div>
+            <div className="d-flex justify-content-center align-items-center col-md-6 col-sm-12">
+                <img className='myImage img-fluid me-5' src={myImage} alt="img not found"   data-aos="fade-up"
+                 data-aos-duration="3000" />
+            </div>
+           </div>
+        </div>
+    </div>
+    );
+};
+
+export default Header;

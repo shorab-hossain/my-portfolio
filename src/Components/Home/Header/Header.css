@@ -1,0 +1,16 @@
+.header {
+  font-family: "Libre Baskerville", serif;
+  background-color: #1f1f25;
+}
+@media only screen and (max-width: 700px) {
+  .content p {
+    font-size: 10px !important;
+    margin-top: 20px;
+  }
+  .content h1 {
+    font-size: 20px !important;
+  }
+  .main-header {
+    flex-direction: column;
+  }
+}

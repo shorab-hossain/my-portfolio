@@ -1,0 +1,93 @@
+.first-block {
+  width: 50% !important;
+}
+
+.second-block {
+  width: 50% !important;
+  padding: 60px;
+  font-size: 20px;
+}
+.image-design img {
+  width: 400px;
+}
+
+.image-width {
+  width: 100%;
+  height: 400px;
+}
+/* btn-design */
+.my-btn button {
+  width: 85%;
+  padding: 13px 193px;
+  font-weight: 700;
+  background: black;
+  color: white;
+  box-shadow: 0px 0px 8px -1px black;
+}
+.title-pricing {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+.btn-pricing {
+  width: 184px;
+  border-radius: 7px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  padding: 0px 31px;
+}
+/* btn-design */
+.tabs-design:hover {
+  color: rgb(253, 122, 20) !important;
+}
+.content-item {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 84%;
+  color: #7c838e;
+}
+.ul-item ul li {
+  font-size: 18px;
+  font-weight: 400;
+  color: #7c838e;
+  margin-left: 5px;
+  line-height: 30px;
+}
+.my-card {
+  padding-top: 0px !important;
+  margin-right: 10px !important;
+}
+.icon-div {
+  margin-top: 4px;
+}
+button#justify-tab-example-tab-home {
+  background: orange;
+  color: #ffff;
+  font-size: 20px;
+  border: none;
+  font-weight: 700;
+  padding-bottom: -9px;
+  border: 3px solid black;
+}
+button#justify-tab-example-tab-profile {
+  background: orange;
+  color: #ffff;
+  font-size: 20px;
+  border: none;
+  font-weight: 700;
+  padding-bottom: -9px;
+  border: 3px solid black;
+}
+button#justify-tab-example-tab-longer-tab {
+  background: orange;
+  color: #ffff;
+  font-size: 20px;
+  border: none;
+  font-weight: 700;
+  padding-bottom: -9px;
+  border: 3px solid black;
+}

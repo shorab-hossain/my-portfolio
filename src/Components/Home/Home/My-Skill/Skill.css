@@ -1,0 +1,12 @@
+.card-design {
+  flex-direction: column;
+}
+.height-design {
+  line-height: 30px;
+}
+
+.signle-card:hover {
+  box-shadow: 20px 10px 60px 50px #343434 inset;
+  cursor: pointer;
+  color: #ffff;
+}

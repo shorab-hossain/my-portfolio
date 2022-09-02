@@ -1,0 +1,37 @@
+.labeld-design {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 7px 0px;
+  color: #a0a8b3;
+  letter-spacing: 1px;
+  margin-bottom: 11px;
+}
+.form-design {
+  background-color: #191b1e;
+  border: 2px solid #191b1e;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 10px 0px #212529;
+  color: #fbfbfb;
+  font-size: 14px;
+  width: 300px;
+  height: 55px;
+  letter-spacing: 1px;
+  padding: 0 15px;
+  transition: transform 0.3s;
+}
+.form-message {
+  background-color: #191b1e;
+  border: 2px solid #191b1e;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 10px 0px #212529;
+  color: #fbfbfb;
+  font-size: 14px;
+  width: 99%;
+  height: 100px;
+  letter-spacing: 1px;
+  padding: 0 15px;
+  margin-top: 25px;
+  transition: transform 0.3s;
+}

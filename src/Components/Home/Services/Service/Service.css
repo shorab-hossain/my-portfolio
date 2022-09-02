@@ -1,0 +1,27 @@
+.card-image {
+  width: 70px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.main-card {
+  border: 2px solid blue;
+  border-radius: 8px;
+  transition: 1s;
+}
+.main-card:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #ff8a00, #e52e71);
+  color: black;
+  transform: scale(1.1);
+}
+.main-card:hover h2 {
+  color: black;
+}
+.content {
+  padding: 30px;
+}
+.content h2 {
+  font-weight: 700;
+  padding-bottom: 13px;
+  color: orange;
+}
