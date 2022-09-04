@@ -1,5 +1,6 @@
 import AOS from 'aos';
 import React from 'react';
+import Typical from 'react-typical';
 import myImage from '../../../image/bg.png';
 import './Header.css';
 AOS.init();
@@ -16,7 +17,20 @@ const Header = () => {
                 <p style={{fontSize:'25px'}}>WELCOME TO MY WORLD</p>
                 <h1 className="fw-bold"  style={{color:'#FF014F',fontSize:"40px"}}>Hi -</h1>
                 <h1 style={{color:'#FF014F',fontWeight:'900',fontSize:'40px',lineHeight:'60px'}}>I’m Shorab Hossain</h1>
-                <h1 style={{color:'#FF014F',fontWeight:'900',fontSize:'35px'}}>I am a frontend Developer.</h1>
+                <p className='d-flex' style={{color:'#FF014F',fontWeight:'900',fontSize:'35px'}}>
+                    I am {'  '}
+                    <Typical className="ms-3"
+                    steps={
+                        [ 
+                        'Front-end Developer', 1000,
+                        'Web Designer', 1000,
+                        'React Developer', 1000,
+                        'Freelancer', 1000,
+                    ]}
+                    loop={1}
+                    wrapper="p"
+                />
+                </p>
             </div>
             <div className="d-flex justify-content-center align-items-center col-md-6 col-sm-12">
                 <img className='myImage img-fluid me-5' src={myImage} alt="img not found" style={{height:'600px'}}   data-aos="fade-up"

@@ -12,7 +12,7 @@ const Navbigation = () => {
         <div className='bg-dark'>
              <Navbar className="container " collapseOnSelect expand="lg"  variant="dark">
               <Container>
-                <Link className='px-4 fw-bold text-decoration-none fw-bold text-light shadow-sm' to="/home">Shorab Hossain</Link>
+                <Link className='px-4 fw-bold text-decoration-none fw-bold text-light shadow-sm fs-5' to="/home">Shorab Hossain</Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav menu-item" />
                 <Navbar.Collapse id="responsive-navbar-nav ">
                   <Nav className="ms-auto d-flex justify-content-center align-items-center">
