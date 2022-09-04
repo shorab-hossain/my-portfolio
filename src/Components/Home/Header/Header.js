@@ -1,6 +1,6 @@
 import AOS from 'aos';
 import React from 'react';
-import myImage from '../../../image/shorab.png';
+import myImage from '../../../image/bg.png';
 import './Header.css';
 AOS.init();
 
@@ -19,7 +19,7 @@ const Header = () => {
                 <h1 style={{color:'#FF014F',fontWeight:'900',fontSize:'35px'}}>I am a frontend Developer.</h1>
             </div>
             <div className="d-flex justify-content-center align-items-center col-md-6 col-sm-12">
-                <img className='myImage img-fluid me-5' src={myImage} alt="img not found"   data-aos="fade-up"
+                <img className='myImage img-fluid me-5' src={myImage} alt="img not found" style={{height:'600px'}}   data-aos="fade-up"
                  data-aos-duration="3000" />
             </div>
            </div>

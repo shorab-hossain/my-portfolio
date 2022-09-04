@@ -2,37 +2,37 @@
   {
     "id": 1,
     "img": "https://i.ibb.co/c35PSFx/shopping.png",
-    "title": "E-Commerce Website",
+    "title": "E-Commerce",
     "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
   },
   {
     "id": 2,
     "img": "https://i.ibb.co/2c2rzWn/education.png",
-    "title": "Travelling Website",
+    "title": "Travelling ",
     "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
   },
   {
     "id": 3,
     "img": "https://i.ibb.co/zf44Zw0/healthcare.png",
-    "title": "HealthCare Website",
+    "title": "HealthCare ",
     "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
   },
   {
     "id": 4,
     "img": "https://i.ibb.co/pz3J3fh/banding.png",
-    "title": "Branding Website",
+    "title": "Branding ",
     "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
   },
   {
     "id": 5,
     "img": "https://i.ibb.co/2N0DBWL/realstate.png",
-    "title": "RealState Website",
+    "title": "RealState ",
     "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
   },
   {
     "id": "6",
     "img": "https://i.ibb.co/sC43X2d/agency.png",
-    "title": "Agency Website",
+    "title": "Agency",
     "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
   }
 ]

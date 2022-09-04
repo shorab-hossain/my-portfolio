@@ -12,14 +12,20 @@ const Skill = () => {
                 <div className="card-deck py-5 card-design">
                         <div className="card bg-dark text-light p-3 mb-4 signle-card">
                             <div className="card-body">
-                            <h3 className="card-title fw-bold height-design fw-bold mb-3">Font-end Developments</h3>
-                            <p className="height-design">I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
+                            <h3 className="card-title fw-bold height-design fw-bold mb-3 text-light">Secondary School Certificate</h3>
+                            <p className="height-design">I studied in Shaheen Academy School and College. I was in the science department.</p>
                             </div>
                         </div>
                         <div className="card bg-dark text-light p-3 mb-4 signle-card">
                             <div className="card-body">
-                            <h3 className="card-title fw-bold height-design mb-3">Examples Of Personal Portfolio</h3>
-                            <p className="card-text height-design">Hello, my name is Shorab Hossain(Shakil). I am a Junior Web Developer,i Study in honours 2nd years at Feni government College. I live in Bangladesh and my home town in Feni. Before becoming a teacher, I photography, and exploring the city by bike.</p>
+                            <h3 className="card-title fw-bold height-design mb-3 text-light">Higher Secondary School Certificate</h3>
+                            <p className="card-text height-design">I studied in Moulovi samsul korim college. I was in the science department.</p>
+                            </div>
+                        </div>
+                        <div className="card bg-dark text-light p-3 mb-4 signle-card">
+                            <div className="card-body">
+                            <h3 className="card-title fw-bold height-design mb-3 text-light">Bachelor of Science (B.S.C)</h3>
+                            <p className="card-text height-design">My name is Shorab Hossain. I am a student of Feni government college honors 2nd year in physics department. </p>
                             </div>
                         </div>
                         </div>
@@ -31,13 +37,13 @@ const Skill = () => {
                     <div className="card-deck py-5 card-design">
                         <div className="card bg-dark text-light p-3 mb-4 signle-card">
                             <div className="card-body">
-                            <h3 className="card-title fw-bold height-design mb-3">Personal Portfolio April Fools</h3>
+                            <h3 className="card-title fw-bold height-design mb-3 text-light">Personal Portfolio April Fools</h3>
                             <p className="height-design">I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
                             </div>
                         </div>
                         <div className="card bg-dark text-light p-3 mb-4 signle-card">
                             <div className="card-body">
-                            <h3 className="card-title fw-bold height-design mb-3">Examples Of Personal Portfolio</h3>
+                            <h3 className="card-title fw-bold height-design mb-3 text-light">Examples Of Personal Portfolio</h3>
                             <p className="card-text height-design">I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
                             </div>
                         </div>

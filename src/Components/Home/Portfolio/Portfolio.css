@@ -75,11 +75,11 @@
     margin: 0 auto;
   }
   .mySingleCard {
-    width: 200px !important;
+    width: 223px !important;
   }
 }
 @media only screen and (max-width: 900px) {
   .mySingleCard {
-    width: 233px !important;
+    width: 230px !important;
   }
 }

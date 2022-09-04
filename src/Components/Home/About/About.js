@@ -1,3 +1,5 @@
+import { Image } from 'antd';
+import "antd/dist/antd.css";
 import React from 'react';
 import myImage1 from '../../../image/shorab1.jpg';
 import './About.css';
@@ -16,8 +18,10 @@ const About = () => {
                        </div>
                 </div>
                 <div className="col-sm-6 col-md-6 col-lg-6 col-12 d-flex justify-content-center align-items-center">
-                     <img className="img-fluid my-img" src={myImage1} alt=""/>
-                </div>
+                     <div>
+                          <Image  style={{width:'63%'}}  className="img-fluid my-img" src={myImage1} alt='this is not loaded'/>
+                     </div>
+                    </div>
                 <hr className='hr-style'></hr>
             </div>
                <div className='Myself fs-3'>

@@ -1,5 +1,6 @@
 .logoImage {
   width: 50px;
+  background-color: white;
 }
 .iconImage {
   width: 50px;
@@ -31,4 +32,17 @@ button.scroll-to-top {
   cursor: pointer;
   font-size: 42px;
   margin-left: 12px;
+}
+@media only screen and (max-width: 600px) {
+  .top-toBottom {
+    margin-right: 185px;
+  }
+  .logoImage {
+    margin-right: 30px;
+  }
+  .design {
+    text-align: center;
+    font-size: 8px;
+    margin-top: -16px;
+  }
 }

@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
-import myImage from '../../../../image/shorab.png';
+import myImage from '../../../../image/shakil.jpg';
 
 import { createUserWithEmailAndPassword, getAuth, sendEmailVerification, signInWithEmailAndPassword } from 'firebase/auth';
 import initializeAuthentication from './../../../Firebase/Firebase.initialize';
@@ -79,9 +79,9 @@ const Contract = () => {
                         <div className="row">
                         <div className="col-md-6 col-sm-12 col-lg-6">
                                     <Card style={{ width: '18rem' }}>
-                                    <Card.Img variant="top" src={myImage} style={{height:"300px"}} />
+                                    <Card.Img variant="top" src={myImage} style={{height:"350px"}} />
                                     <Card.Body>
-                                        <Card.Title>Shorab Hossain</Card.Title>
+                                        <Card.Title className="fw-bold fs-3">Shorab Hossain</Card.Title>
                                         <Card.Text>
                                         <p>I am a front-end Developer.I worked in this field in many year. I have learned a lot of language. There are like HTML5,CSS,BOOTSTRAP, JAVASCRIPT, REACT and etc.</p>
                                         </Card.Text>
@@ -105,7 +105,7 @@ const Contract = () => {
                              <div className='col-md-6 col-sm-12 col-lg-6'>
                                 
                              <form className='text-light' >
-                             <h4 className="mb-3">{isLogIn ? 'LogIn':'Registered'}</h4>
+                             <h4 className="mb-3 text-light">{isLogIn ? 'LogIn':'Registered'}</h4>
                                     <div className="d-flex ">
                                         <div className='me-4'>
                                                 <label className='label-design' htmlFor="fname">Email:</label><br/>  
@@ -113,8 +113,8 @@ const Contract = () => {
                                            
                                         </div>
                                         <div>
-                                            <label className='label-design' htmlFor="fname">Password</label><br/>  
-                                        <input onBlur={handlePassword} className='form-design' type='password' required />
+                                            {/* <label className='label-design' htmlFor="fname">Password</label><br/>  
+                                        <input onBlur={handlePassword} className='form-design' type='password' required /> */}
                                         </div>
                                     </div>
                                     <div className="mt-0 mb-4">

@@ -16,16 +16,16 @@ const Experience = () => {
             {/*--- my-tabs design--- */}
                      <ul className="nav nav-pills mb-3 shadow" id="pills-tab" role="tablist">
                     <li className="nav-item">
-                        <a className="nav-link responsive active tabs-design bg-dark py-4 px-4 fs-5 fw-bold text-center me-1" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"  style={{color:"rgb(253, 122, 20)",width:"20rem"}}>Education</a>
+                        <a className="nav-link responsive active tabs-design bg-dark py-4 px-4 fs-5 fw-bold text-center me-1" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"  style={{color:"rgb(253, 122, 20)",width:"17rem"}}>Education</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link responsive tabs-design bg-dark py-4 px-4 fs-5 fw-bold text-center me-1" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style={{color:"rgb(253, 122, 20)",width:"20rem"}}>Experience</a>
+                        <a className="nav-link responsive tabs-design bg-dark py-4 px-4 fs-5 fw-bold text-center me-1" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style={{color:"rgb(253, 122, 20)",width:"18rem"}}>Experience</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link responsive tabs-design bg-dark py-4 px-4 fs-5 fw-bold text-center me-1" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false" style={{color:"rgb(253, 122, 20)",width:"20rem"}}>Proffessional Skills</a>
+                        <a className="nav-link responsive tabs-design bg-dark py-4 px-4 fs-5 fw-bold text-center me-1" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false" style={{color:"rgb(253, 122, 20)",width:"17rem"}}>Proffessional Skills</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link responsive  tabs-design bg-dark py-4 px-4 fs-5 fw-bold text-center me-1" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false" style={{color:"rgb(253, 122, 20)",width:"20rem"}}>Interview</a>
+                        <a className="nav-link responsive  tabs-design bg-dark py-4 px-4 fs-5 fw-bold text-center me-1" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false" style={{color:"rgb(253, 122, 20)",width:"339px"}}>Interview</a>
                     </li>
                     </ul>
                     <div className="tab-content" id="pills-tabContent">
@@ -36,7 +36,7 @@ const Experience = () => {
                         <Design/>
                     </div>
                     <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                        <Skill/>
+                       <Skill></Skill>
                     </div>
                     </div>  
                 </div>

@@ -91,3 +91,8 @@ button#justify-tab-example-tab-longer-tab {
   padding-bottom: -9px;
   border: 3px solid black;
 }
+@media only screen and (max-width: 600px) {
+  .my-btn button {
+    width: 70%;
+  }
+}

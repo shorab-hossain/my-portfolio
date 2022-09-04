@@ -14,11 +14,11 @@ const Footer = () => {
         <div className="bg-dark">
              <ScrollToTop smooth />
             <div className='py-3  container'>
-                <div className='d-flex justify-content-around align-items-center '>
-                   <div>
-                         <img  className='img-fluid logoImage '  src={logoImage} alt=""/>
+            <div className='d-flex justify-content-around align-items-center'>
+                   <div className=''>
+                         <img  className='img-fluid logoImage'  src={logoImage} alt=""/>
                    </div> 
-                   <div className="d-flex justify-content-center">
+                   <div className="d-flex justify-content-center ">
                         <div>
                         <a href="https://www.facebook.com/profile.php?id=100015420465801"><img className='img-fluid iconImage me-4 animate__animated animate__fadeInDown'  src={iconImage1} alt=""/></a>
                         </div>
@@ -35,15 +35,17 @@ const Footer = () => {
                          </a>
                         </div>
                    </div>
-                   <div className='copy-right '>
+                   <div className='copy-right'>
                         <p className="text-dark">Copyright © 2022. All Rights Reserved.</p>
                         <p className='design text-warning'>Design By <span className='fw-bold text-light ms-2'>Shorab Hossain (Shakil)</span></p>
                    </div>
                 </div>
+                <div>   
                 <MessengerCustomerChat
-                    pageId="109588013920956"
-                    appId="997073571073666"
-                />,
+                    pageId="105963864281345"
+                    appId="762018248244913"
+                    />
+            </div>
             </div>
         </div>
     );

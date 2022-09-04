@@ -2,15 +2,22 @@
   font-family: "Libre Baskerville", serif;
   background-color: #1f1f25;
 }
+.myImage {
+  margin-top: -100px;
+}
 @media only screen and (max-width: 700px) {
   .content p {
     font-size: 10px !important;
     margin-top: 20px;
+    text-align: center;
   }
   .content h1 {
     font-size: 20px !important;
   }
   .main-header {
     flex-direction: column;
+  }
+  .myImage {
+    margin-left: 100px;
   }
 }

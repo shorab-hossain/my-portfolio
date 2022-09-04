@@ -41,12 +41,11 @@ const Testimonial = () => {
                                                     <li>Responsive Design</li>
                                                     <li>Content Upload</li>
                                                     <li>Design Customization</li>
-                                                    <li>Design Customization</li>
                                                 </ul>
                                             </div>
                                             <div className='col-md-6 col-sm-12 col-lg-6 ul-item'>
                                                 <ul className="text-decoration-none  ">
-                                                        <li>multipage Web page Design</li>
+                                                        <li>1 page Design</li>
                                                         <li>Design Customization</li>
                                                         <li>Design Figma</li>
                                                         <li>Maintaine Desig</li>
@@ -66,7 +65,7 @@ const Testimonial = () => {
                                     </div></button>
                                 </div>
                                 <div className='d-flex justify-content-around'>
-                                    <h5 className='me-4'>2 Days Delivery</h5>
+                                    <h5 className='me-4'>1 Days Delivery</h5>
                                     <h5><FaSignature className='me-3'/>Unlimited Revission</h5>
                                 </div>
                                 </div> 
@@ -78,7 +77,7 @@ const Testimonial = () => {
                             data-aos-anchor-placement="top-bottom">
                                 <div className="card py-4">
                                     <div className="card-body ">
-                                    <h5 className="card-title title-pricing text-dark">Design Make this Page</h5>
+                                    <h5 className="card-title title-pricing text-dark">3 page Design</h5>
                                     <div>
                                         <div className='d-flex justify-content-between mb-4'>
                                                 <h4 className='text-muted mb-3'>Web Design</h4>
@@ -88,17 +87,16 @@ const Testimonial = () => {
                                         <div className='row'>
                                             <div className="col-md-6 col-sm-12 col-lg-6 ul-item">
                                                 <ul className="text-decoration-none">
-                                                    <li>1 Page with Web Page Design</li>
+                                                    <li>3 Page Design</li>
                                                     <li>Design Customization</li>
                                                     <li>Responsive Design</li>
                                                     <li>Content Upload</li>
-                                                    <li>Design Customization</li>
                                                     <li>Design Customization</li>
                                                 </ul>
                                             </div>
                                             <div className='col-md-6 col-sm-12 col-lg-6 ul-item'>
                                                 <ul className="text-decoration-none  ">
-                                                        <li>multipage Web page Design</li>
+                                                        <li>3 page web Design</li>
                                                         <li>Design Customization</li>
                                                         <li>Design Figma</li>
                                                         <li>Maintaine Desig</li>
@@ -129,7 +127,7 @@ const Testimonial = () => {
                             data-aos-anchor-placement="top-bottom">
                                 <div className="card py-4">
                                     <div className="card-body ">
-                                    <h5 className="card-title title-pricing">Make Your Single Page</h5>
+                                    <h5 className="card-title title-pricing">Multiple page Design</h5>
                                     <div>
                                         <div className='d-flex justify-content-between mb-4'>
                                                 <h4 className='text-muted mb-3'>Web Design</h4>
@@ -139,11 +137,10 @@ const Testimonial = () => {
                                         <div className='row'>
                                             <div className="col-md-6 col-sm-12 col-lg-6 ul-item">
                                                 <ul className="text-decoration-none">
-                                                    <li>1 Page with Web Page Design</li>
+                                                    <li>Multiple  Web Page Design</li>
                                                     <li>Design Customization</li>
                                                     <li>Responsive Design</li>
                                                     <li>Content Upload</li>
-                                                    <li>Design Customization</li>
                                                     <li>Design Customization</li>
                                                 </ul>
                                             </div>
@@ -169,7 +166,7 @@ const Testimonial = () => {
                                     </div></button>
                                 </div>
                                 <div className='d-flex justify-content-around'>
-                                    <h5 className='me-4'>2 Days Delivery</h5>
+                                    <h5 className='me-4'>3 Days Delivery</h5>
                                     <h5><FaSignature className='me-3'/>Unlimited Revission</h5>
                                 </div>
                                 </div> 

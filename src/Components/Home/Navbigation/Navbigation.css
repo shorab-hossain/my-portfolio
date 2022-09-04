@@ -5,6 +5,10 @@
   cursor: pointer;
   color: chocolate !important;
 }
+.icon-style {
+  font-size: 17px;
+  margin-left: 1px;
+}
 @media only screen and (max-width: 600px) {
   .menu-item {
     display: flex !important;
